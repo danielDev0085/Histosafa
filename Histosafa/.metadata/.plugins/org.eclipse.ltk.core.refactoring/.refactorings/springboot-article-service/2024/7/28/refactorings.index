@@ -1,0 +1,13 @@
+1720708944314	Rename type 'SpringbootArticuloServiceApplication'
+1720708952120	Rename type 'SpringbootArticuloServiceApplicationTests'
+1720708971634	Rename package 'com.springboot.histosafa.articulo'
+1720709032783	Rename package 'com.springboot.histosafa.articulo'
+1720713419437	Rename package 'com.springboot.histosafa.article'
+1720713439241	Rename package 'com.springboot.histosafa.article'
+1720714536734	Rename package 'com.springboot.histosafa.entity.article'
+1720714558444	Rename package 'com.springboot.histosafa.entity.article'
+1720714584634	Move compilation unit
+1720714614021	Copy package
+1720714622683	Delete element
+1720724278498	Encapsulate field 'title'
+1720725682114	Delete element

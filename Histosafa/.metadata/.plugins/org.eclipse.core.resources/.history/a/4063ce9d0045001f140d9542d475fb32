@@ -1,0 +1,13 @@
+package com.springboot.histosafa.userfavouritearticle.entity;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+
+@Entity
+public class UserFavouriteArticle {
+	@Id
+	private String dni;
+	
+	@Id
+	private Long idArticle;
+}

@@ -1,0 +1,11 @@
+package com.springboot.histosafa.userfavouritearticle.articleClient.service;
+
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@FeignClient(name="springboot-article-service", url="localhost")
+public interface ArticleRestClient {
+	
+	@GetMapping("/id/{id}")
+	public Article getArticleById(Long id);
+}

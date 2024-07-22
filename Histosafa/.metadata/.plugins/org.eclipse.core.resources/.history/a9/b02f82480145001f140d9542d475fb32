@@ -1,0 +1,5 @@
+package com.springboot.histosafa.userfavouritearticle.repository;
+
+public interface UserFavouriteArticleRepository {
+
+}

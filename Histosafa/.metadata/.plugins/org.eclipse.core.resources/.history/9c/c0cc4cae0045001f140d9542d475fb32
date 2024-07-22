@@ -1,0 +1,27 @@
+package com.springboot.histosafa.userfavouritearticle.entity;
+
+import java.io.Serializable;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+/**
+ * Clase que hace referencia a la tabla USER_FAVOURITE_ARTICLE de BD.
+ * @author Daniel de Frutos.
+ */
+@AllArgsConstructor //Constructor con todos los argumentos
+@NoArgsConstructor //Constructor sin argumentos
+@Data //Getters and setters
+@Entity
+@Table (name="user_favourite_article")
+public class UserFavouriteArticle implements Serializable{
+	@Id
+	private String dni;
+	
+	@Id
+	private Long idArticle;
+}

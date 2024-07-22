@@ -1,0 +1,30 @@
+package com.springboot.histosafa.article.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.springboot.histosafa.article.entity.Article;
+import com.springboot.histosafa.article.service.implement.ArticleServiceImp;
+
+@RestController //RestController convierte la respuesta a JSON
+public class ArticleController {
+	
+	@Autowired
+	ArticleServiceImp articleService;
+	
+	@GetMapping("/listArticles")
+	private List<Article> getAllArticles() {
+		return articleService.getAllArticles();
+	}
+	
+	@GetMapping("/listArticles/{id}")
+	private Article getArticleById(@PathVariable Long idArticle) {
+		return articleService.getArticleById(idArticle);
+	}
+	
+
+}

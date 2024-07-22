@@ -1,0 +1,5 @@
+package com.springboot.histosafa.userfavouritearticle.articuloClient.service;
+
+public class ArticleRestClient {
+
+}

@@ -1,0 +1,51 @@
+package com.springboot.histosafa.user.entity;
+
+import jakarta.persistence.Lob;
+
+public class Article {
+	private long id;
+	private String title;
+	private String introduction;
+	private String content;
+	private String century;
+	private byte[] image;
+	
+	//START Getters and setters
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getTitle() {
+		return title;
+	}
+	public void setTitle(String title) {
+		this.title = title;
+	}
+	public String getIntroduction() {
+		return introduction;
+	}
+	public void setIntroduction(String introduction) {
+		this.introduction = introduction;
+	}
+	public String getContent() {
+		return content;
+	}
+	public void setContent(String content) {
+		this.content = content;
+	}
+	public String getCentury() {
+		return century;
+	}
+	public void setCentury(String century) {
+		this.century = century;
+	}
+	public byte[] getImage() {
+		return image;
+	}
+	public void setImage(byte[] image) {
+		this.image = image;
+	}
+	//END Getters and setters
+}

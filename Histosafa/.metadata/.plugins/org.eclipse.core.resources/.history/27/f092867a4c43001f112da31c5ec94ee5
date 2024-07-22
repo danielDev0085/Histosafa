@@ -1,0 +1,6 @@
+spring.application.name=springboot-cloud-gateway
+server.port=8090
+
+#Registrar servicio en Eureka
+eureka.client.service-url.defaultzone=http://localhost:8761/eureka
+

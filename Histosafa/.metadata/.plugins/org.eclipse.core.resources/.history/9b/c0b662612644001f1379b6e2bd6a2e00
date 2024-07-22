@@ -1,0 +1,5 @@
+package com.springboot.histosafa.article;
+
+public class AppConfig {
+
+}

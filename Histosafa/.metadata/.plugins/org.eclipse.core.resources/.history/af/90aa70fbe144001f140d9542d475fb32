@@ -1,0 +1,5 @@
+package com.springboot.histosafa.user.entity;
+
+public class Article {
+
+}

@@ -1,0 +1,5 @@
+package com.springboot.histosafa.user.controller;
+
+public class UserController {
+
+}
